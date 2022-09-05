@@ -51,7 +51,7 @@ jobs:
         run: |
           gpg --passphrase "$PHRASE" --cipher-algo AES256 --batch --yes --symmetric cookies.json
           git add .
-          git commit -m encrption
+          git commit -m encryption
           git push
 
       - name: Check for Error screenshots
