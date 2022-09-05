@@ -2,6 +2,9 @@
 
 Puppeteer for epic.
 
+> **DO NOT FORK THIS REPO AND USE ACTIONS DIRECTLY ON THE FORK<br>
+> PRESS `Use this template` AND CREATE A NEW _PRIVATE_ REPO TO USE WITH ACTION**
+
 ## Requires
 - NodeJS
   - puppeteer-extra
