@@ -17,7 +17,7 @@ else
     start();
 
 async function start(email = null, pass = null) {
-    const browser = await pup.launch({ headless: false });
+    const browser = await pup.launch({ /*headless: false*/ });
     const page = await browser.newPage();
     await page.setUserAgent('Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36');
 
